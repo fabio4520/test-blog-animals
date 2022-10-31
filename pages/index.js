@@ -54,6 +54,7 @@ export async function getStaticProps() {
   //   }
   // ];
 
+  
   const animals = await client.fetch(`*[_type == "animal"]`);
 
   return {
